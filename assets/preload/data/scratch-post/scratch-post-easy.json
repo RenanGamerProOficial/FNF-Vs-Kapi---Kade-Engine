@@ -9197,7 +9197,7 @@
 				"mustHitSection": true
 			}
 		],
-		"gfVersion": "gf",
+		"gfVersion": "gf-car",
 		"events": [],
 		"player3": "gf-car",
 		"splashSkin": "kapinoteSplashes",
