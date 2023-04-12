@@ -683,6 +683,25 @@ class PlayState extends MusicBeatState
 	
 						add(stageCurtains);
 				}
+                         case 'stageback':
+				{
+						defaultCamZoom = 0.9;
+						curStage = 'stageback';
+						var bg:FlxSprite = new FlxSprite(-600, 300).loadGraphic(Paths.image('stagebackkapi'));
+						bg.antialiasing = true;
+						bg.scrollFactor.set(0.9, 0.9);
+						bg.active = false;
+						add(bg);
+	
+						var stageFront:FlxSprite = new FlxSprite(-650, 600).loadGraphic(Paths.image('stagefrontkapi'));
+						stageFront.setGraphicSize(Std.int(stageFront.width * 1.1));
+						stageFront.updateHitbox();
+						stageFront.antialiasing = true;
+						stageFront.scrollFactor.set(0.9, 0.9);
+						stageFront.active = false;
+						add(stageFront);
+	
+				}
 			default:
 			{
 					defaultCamZoom = 0.9;
