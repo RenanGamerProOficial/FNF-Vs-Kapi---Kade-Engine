@@ -1,5 +1,7 @@
 bf
 dad
+KAPI
+KAPI_ANGRY
 gf
 spooky
 pico
