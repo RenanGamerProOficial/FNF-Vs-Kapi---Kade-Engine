@@ -1,6 +1,6 @@
 {
 	"song": {
-		"player1": "KAPIBOYFRIEND",
+		"player1": "bf",
 		"events": [
 			[
 				0,
@@ -13,7 +13,7 @@
 				]
 			]
 		],
-		"gfVersion": "KAPIGIRLFRIEND",
+		"gfVersion": "gf",
 		"player2": "KAPI",
 		"notes": [
 			{
